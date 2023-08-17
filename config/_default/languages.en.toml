@@ -1,0 +1,10 @@
+title = "Personal website & blog"
+
+[author]
+name = "Aleksandr Popov"
+image = "resources/_gen/images/profile.jpg"
+headline = "A generally awesome human"
+bio = "A little bit about me"
+links = [
+  { github = "https://github.com/budivoy" }
+]
