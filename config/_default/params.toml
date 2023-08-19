@@ -1,2 +1,10 @@
 colorScheme = "ocean"
-homepage.layout = "profile"
+
+[homepage]
+layout = "profile"
+
+[footer]
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
