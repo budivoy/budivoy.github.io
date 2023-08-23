@@ -3,7 +3,7 @@ title = "Aleksandr Popov"
 [author]
 name = "Aleksandr Popov"
 image = "img/profile.jpg"
-headline = "Solving 21st century problems and sometimes working as firefighter"
+headline = "Solving 21st century problems and sometimes working as a 'firefighter'"
 bio = "A little bit about me"
 links = [
   { email = "mailto:"},
