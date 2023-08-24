@@ -1,5 +1,7 @@
 title = "Aleksandr Popov"
 
+copyright = "The content for this site is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), the [code](https://github.com/budivoy/budivoy.github.io) is [Apache 2.0](https://github.com/budivoy/budivoy.github.io/blob/main/LICENSE)"
+
 [author]
 name = "Aleksandr Popov"
 image = "img/profile.jpg"
