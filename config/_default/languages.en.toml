@@ -10,5 +10,6 @@ bio = "A little bit about me"
 links = [
   { github = "https://github.com/budivoy" },
   { linkedin = "https://www.linkedin.com/in/aleksandr-popov-9523aa83" },
+  { twitter = "https://x.com/xbudivoy" },
   { google = "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vaPP57YAAAAJ&sortby=pubdate" }
 ]
