@@ -8,7 +8,6 @@ image = "img/profile.jpg"
 headline = "Solving 21st century problems and sometimes working as a 'firefighter'"
 bio = "A little bit about me"
 links = [
-  { email = "mailto:"},
   { github = "https://github.com/budivoy" },
   { linkedin = "https://www.linkedin.com/in/aleksandr-popov-9523aa83" },
   { google = "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vaPP57YAAAAJ&sortby=pubdate" }
