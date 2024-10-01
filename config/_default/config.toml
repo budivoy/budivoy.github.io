@@ -1,2 +1,3 @@
 baseURL = "https://budivoy.github.io/"
 languageCode = "en"
+enableRobotsTXT = true
