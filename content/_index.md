@@ -1,1 +1,0 @@
-[Curriculum Vitae](pdf/AleksandrPopov_CV.pdf)
