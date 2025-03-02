@@ -8,6 +8,8 @@ theme:
     - navigation.indexes
     - toc.integrate
     - content.code.annotate
+  font:
+    text: Roboto
   icon:
     logo: material/account-circle   
   palette:
@@ -22,7 +24,15 @@ theme:
           icon: material/weather-night
           name: Switch to light mode
 
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Blog: blog.md
+  - Contact: contact.md
+
 extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
   - assets/css/custom.css
 
 extra:
@@ -33,7 +43,7 @@ extra:
       link: https://www.linkedin.com/in/aleksandr-p-9523aa83/
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/xbudivoy
-    - icon: material/google
+    - icon: fontawesome/solid/graduation-cap
       link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vaPP57YAAAAJ&sortby=pubdate
 
 copyright: |

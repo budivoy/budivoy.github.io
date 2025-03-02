@@ -1,0 +1,48 @@
+.hero {
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Makes it circular */
+    object-fit: cover;
+    /* Ensures proper cropping */
+    margin-bottom: 20px;
+    /* Spacing below the image */
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    /* Centers icons horizontally */
+    gap: 20px;
+    /* Space between icons */
+}
+
+.icon-links a {
+    font-size: 24px;
+    /* Icon size */
+    color: #333;
+    /* Default color */
+    text-decoration: none;
+    /* Removes underline */
+}
+
+.icon-links a:hover {
+    color: #007bff;
+    /* Hover color (e.g., blue) */
+}
