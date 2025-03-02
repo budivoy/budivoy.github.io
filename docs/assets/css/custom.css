@@ -13,8 +13,8 @@
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     /* Makes it circular */
     object-fit: cover;
