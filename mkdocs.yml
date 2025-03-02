@@ -1,0 +1,58 @@
+site_name: Aleksandr Popov
+site_url: https://budivoy.github.io
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+    - content.code.annotate
+  icon:
+    logo: material/account-circle   
+  palette:
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        toggle:
+          icon: material/weather-night
+          name: Switch to light mode
+
+extra_css:
+  - assets/css/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/budivoy
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/aleksandr-p-9523aa83/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/xbudivoy
+    - icon: material/google
+      link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vaPP57YAAAAJ&sortby=pubdate
+
+copyright: |
+  <div style="text-align: center; margin-top: 2rem;">
+    The content for this site is <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>, 
+    the <a href="https://github.com/budivoy/budivoy.github.io">code</a> is 
+    <a href="https://github.com/budivoy/budivoy.github.io/blob/main/LICENSE" target="_blank">Apache 2.0</a>
+  </div>
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.emoji
+
+plugins:
+  - search
+#  - social
+
+repo_url: https://github.com/budivoy/budivoy.github.io
