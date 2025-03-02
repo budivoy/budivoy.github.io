@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
+        pages: write
+        id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,4 +26,7 @@ jobs:
         run: uv sync --all-extras --dev
 
       - name: Deploy to GitHub Pages
-        run: uv run mkdocs gh-deploy --force
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          uv run mkdocs gh-deploy --force --remote-branch gh-pages --remote-name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
