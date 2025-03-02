@@ -45,3 +45,13 @@
     color: #007bff;
     /* Hover color (e.g., blue) */
 }
+
+.md-header {
+    display: none;
+    /* Hide navigation header */
+}
+
+.md-main {
+    margin-top: 0;
+    /* Adjust layout after hiding header */
+}
