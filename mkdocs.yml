@@ -3,6 +3,7 @@ site_url: https://budivoy.github.io
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.indexes
