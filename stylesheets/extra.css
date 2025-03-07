@@ -1,0 +1,49 @@
+.mdx-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    /* Changed from height to min-height */
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    /* Added padding for breathing room */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.mdx-hero h1 {
+    /* font-size: 2.0rem; */
+    margin-bottom: 0px;
+}
+
+.mdx-hero p {
+    /* font-size: 1.0rem; */
+    margin-top: 0px;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0;
+}
+
+.icon-links a {
+    font-size: 24px;
+    color: #565656;
+    text-decoration: none;
+}
+
+.icon-links a:hover {
+    color: #007bff;
+}
