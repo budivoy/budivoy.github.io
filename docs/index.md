@@ -1,6 +1,6 @@
 ---
 template: main.html
-title: Aleksandr Popov - Personal Page
+title: Tech with Purpose
 hide:
     - toc
     - navigation
