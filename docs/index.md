@@ -1,6 +1,6 @@
 ---
 template: main.html
-title: Your Project Name
+title: Aleksandr Popov - Personal Page
 hide:
     - toc
     - navigation

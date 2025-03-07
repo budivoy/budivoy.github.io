@@ -1,6 +1,17 @@
-site_name: Aleksandr Popov
+site_name: Aleksandr Popov - Personal Page
 site_url: https://budivoy.github.io
+site_author: Aleksandr Popov
+site_description: >-
+  Personal page
 
+# Repository
+repo_name: budivoy/budivoy.github.io
+repo_url: https://github.com/budivoy/budivoy.github.io
+
+# Copyright
+copyright: Copyright &copy; 2025 Aleksandr Popov
+
+# Configuration
 theme:
   name: material
   custom_dir: overrides
@@ -11,27 +22,38 @@ theme:
     - content.code.annotate
   font:
     text: Roboto
+    code: Roboto Mono
   icon:
-    logo: material/account-circle   
+    logo: rocket-solid
   palette:
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        toggle:
-          icon: material/weather-sunny
-          name: Switch to dark mode
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        toggle:
-          icon: material/weather-night
-          name: Switch to light mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
-nav:
-  - Home: index.md
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
 
-extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
-  - assets/css/custom.css
-
+# Additional configuration
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -43,23 +65,22 @@ extra:
     - icon: fontawesome/solid/graduation-cap
       link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vaPP57YAAAAJ&sortby=pubdate
 
-copyright: |
-  <div style="text-align: center; margin-top: 2rem;">
-    The content for this site is <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>, 
-    the <a href="https://github.com/budivoy/budivoy.github.io">code</a> is 
-    <a href="https://github.com/budivoy/budivoy.github.io/blob/main/LICENSE" target="_blank">Apache 2.0</a>
-  </div>
-
+# Extensions
 markdown_extensions:
   - attr_list
   - footnotes
   - meta
   - toc:
       permalink: true
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-plugins:
-  - search
-#  - social
+# Page tree
+nav:
+  - Home: index.md
 
-repo_url: https://github.com/budivoy/budivoy.github.io
+# Extra Stylesheet
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+  - stylesheets/extra.css
