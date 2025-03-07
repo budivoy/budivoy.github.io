@@ -1,17 +1,16 @@
 .mdx-hero {
     display: flex;
     flex-direction: column;
-    /* Stack children vertically */
     justify-content: center;
-    /* Vertical centering */
     align-items: center;
-    /* Horizontal centering */
-    height: 60vh;
+    min-height: 60vh;
+    /* Changed from height to min-height */
     width: 100%;
-    /* Ensure full width */
     margin: 0 auto;
-    /* Center container itself horizontally */
+    padding: 2rem 1rem;
+    /* Added padding for breathing room */
     text-align: center;
+    box-sizing: border-box;
 }
 
 .profile-pic {
