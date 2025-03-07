@@ -3,7 +3,7 @@ name: Publish 📚
 on:
   push:
     branches:
-      - migrate_to_mkdocs
+      - main
 
 jobs:
   deploy:
