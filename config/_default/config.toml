@@ -1,3 +1,64 @@
-baseURL = "https://budivoy.github.io/"
-languageCode = "en"
-enableRobotsTXT = true
+# Basic site configuration
+baseURL = "https://budivoy.github.io/"  # The base URL of your site, used for generating absolute URLs
+languageCode = "en"                     # Default language code for the site
+
+title = "Tech with purpose"             # Site title, appears in browser tab and meta tags
+description = "Personal website and blog" # Site description, used in meta tags and SEO
+copyright = "© 2024 Aleksandr Popov"   # Copyright notice displayed in the footer
+
+# Build settings
+enableRobotsTXT = true                 # Generate robots.txt file for search engines
+disablePathToLower = true              # Preserve case in URLs (required for Bear Blog theme)
+buildDrafts = false                    # Don't build draft content
+buildFuture = false                    # Don't build content with future dates
+buildExpired = false                   # Don't build expired content
+enableEmoji = true                     # Enable emoji support in content
+
+# Theme settings
+theme = "hugo-bearblog"               # The theme to use for the site
+
+# URL settings - Define custom URL patterns for different content types
+[permalinks]
+  blog = "/blog/:slug/"               # URL pattern for blog posts
+  tags = "/tag/:slug/"                # URL pattern for tag pages
+
+# Theme-specific parameters
+[params]
+  # Basic site information
+  name = "Aleksandr Popov"            # Your name, displayed in the header
+  description = "Personal website and blog" # Site description for theme display
+  
+  # Asset paths
+  favicon = "images/favicon.png"      # Path to favicon image
+  images = ["images/share.png"]       # Default image used for social sharing
+  
+  # Theme features
+  hideMadeWithLine = false            # Show/hide the "Made with Hugo Bear Blog" line
+  highlight = true                    # Enable syntax highlighting
+  highlightStyle = "monokai"          # Syntax highlighting theme
+  highlightLanguages = [              # List of languages for syntax highlighting
+    "python",
+    "javascript",
+    "html",
+    "css",
+    "bash",
+    "go",
+    "rust",
+    "sql",
+    "yaml"
+  ]
+
+# Markup processing settings
+[markup]
+  [markup.highlight]                  # Syntax highlighting configuration
+    anchorLineNos = true              # Add anchors to line numbers
+    codeFences = true                 # Enable code fences (```) for code blocks
+    guessSyntax = true                # Try to guess language if not specified
+    hl_Lines = ""                     # Lines to highlight (empty means none)
+    lineAnchors = ""                  # Add anchors to lines (empty means none)
+    lineNoStart = 1                   # Starting number for line numbers
+    lineNumbers = true                # Show line numbers in code blocks
+    lineNumbersInTable = true         # Use table layout for line numbers
+    noClasses = false                 # Don't add CSS classes to code blocks
+    style = "monokai"                 # Syntax highlighting theme
+    tabWidth = 4                      # Number of spaces for tab indentation
