@@ -1,0 +1,11 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Prevent caching of CV
+User-agent: *
+Disallow: /pdf/CV.pdf
+
+# Prevent caching of CV (alternative method)
+User-agent: *
+Noarchive: /pdf/CV.pdf 
