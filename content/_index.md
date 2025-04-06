@@ -1,6 +1,11 @@
+---
+title: "Home"
+date: 2024-04-05
+---
+
 Make difference. Step into the light from your personal maze.
 
-[Curriculum Vitae](pdf/CV.pdf)
+- [Curriculum Vitae](pdf/CV.pdf) <meta name="robots" content="noarchive">
 
 ## Profile Links
 - [GitHub](https://github.com/budivoy)

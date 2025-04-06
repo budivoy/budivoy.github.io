@@ -7,7 +7,7 @@ description = "Personal website and blog" # Site description, used in meta tags 
 copyright = "© 2024 Aleksandr Popov"   # Copyright notice displayed in the footer
 
 # Build settings
-enableRobotsTXT = true                 # Generate robots.txt file for search engines
+enableRobotsTXT = false                # Generate robots.txt file for search engines
 disablePathToLower = true              # Preserve case in URLs (required for Bear Blog theme)
 buildDrafts = false                    # Don't build draft content
 buildFuture = false                    # Don't build content with future dates
