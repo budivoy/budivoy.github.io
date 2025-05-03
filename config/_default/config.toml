@@ -4,7 +4,7 @@ languageCode = "en"                     # Default language code for the site
 
 title = "Tech with purpose"             # Site title, appears in browser tab and meta tags
 description = "Personal website and blog" # Site description, used in meta tags and SEO
-copyright = "© 2024 Aleksandr Popov"   # Copyright notice displayed in the footer
+copyright = "© 2025 Aleksandr Popov"   # Copyright notice displayed in the footer
 
 # Build settings
 enableRobotsTXT = false                # Generate robots.txt file for search engines
