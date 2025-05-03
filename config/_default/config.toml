@@ -2,7 +2,7 @@
 baseURL = "https://budivoy.github.io/"  # The base URL of your site, used for generating absolute URLs
 languageCode = "en"                     # Default language code for the site
 
-title = "Tech with purpose"             # Site title, appears in browser tab and meta tags
+title = "Aleksandr Popov"              # Site title, appears in browser tab and meta tags
 description = "Personal website and blog" # Site description, used in meta tags and SEO
 copyright = "© 2025 Aleksandr Popov"   # Copyright notice displayed in the footer
 
