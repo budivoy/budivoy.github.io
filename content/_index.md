@@ -1,6 +1,12 @@
 ---
 title: "Home"
-date: 2024-05-03
+date: 2025-12-21
+---
+
+## Note: This is outdated version
+
+New one at: https://budivoy.codeberg.page/
+
 ---
 
 Make difference. Step into the light from your personal maze.
@@ -11,6 +17,7 @@ Make difference. Step into the light from your personal maze.
 - [Bear ʕ•ᴥ•ʔ Blog](https://twp.bearblog.dev/)
 
 ## Profile Links
+- [Codeberg](https://codeberg.org/budivoy/)
 - [GitHub](https://github.com/budivoy)
 - [LinkedIn](https://www.linkedin.com/in/aleksandr-popov-9523aa83)
 - 𝕏 [@xbudivoy](https://x.com/xbudivoy)
